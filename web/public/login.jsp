@@ -13,11 +13,21 @@
     <body>
 
         <form id="loginform" name="loginform" method="POST" action="j_security_check" accept-charset="UTF-8">
+         <!-- Insert your form elements here -->
+                <fieldset>
+                    <legend>Log In</legend>
+                        <label for="j_username">Username:</label> 
+                        <input type="text" id="j_username" name="j_username" tabindex=1></br>
+                        <p></p>
+                        <label for="j_password">Password:</label> 
+                        <input type="password" id="j_password" name="j_password" tabindex=2></br>
+                        <p></p>
+                        <input type="submit" value="Submit">
 
-            <!-- Insert your form elements here -->
-
+                </fieldset>
         </form>
-
+        
+        <p></p>
         <b>How to Log In</b>
 
         <ul>
