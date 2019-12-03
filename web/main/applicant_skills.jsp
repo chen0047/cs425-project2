@@ -6,6 +6,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Select Skills</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="<%= request.getContextPath() %>/public/style/skill.css">
+        <!-- the path can also be "../public/style/skill.css", but the reuqest can provide the absolute path-->
+            
+            
     </head>
     <body>
         <form id="skillsform" name="skillsform" method="post" action="applicant_jobs.jsp">
@@ -14,8 +18,8 @@
                 <jsp:getProperty name="applicant" property="skillsList" /></br>
                 <input type="submit" value="Submit" />
                 <p></p>
-                <a href="applicant_main.jsp">Return to User Home Page</a> 
-                <a href="<%= request.getContextPath() %>/public/logout.jsp" target="_self">Log Out</a>
+                <a href="applicant_main.jsp">Return to User Home Page</a> </br><br/>
+                <a href="<%= request.getContextPath() %>/public/logout.jsp" target="_self">Log Out</a><br/>
                 
             </fieldset>    
         </form>

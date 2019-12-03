@@ -1,0 +1,46 @@
+body{
+    background:url("image/bluesky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    overflow: auto;
+    margin:auto;
+
+}
+fieldset{
+    background-color:lightskyblue;
+    border-style: solid dotted;
+    align-content: center;
+    padding:2em;
+    font-size:25px;
+}
+legend{
+    background-color:white;
+    border-radius:5px;
+    border:dotted lightblue 2px;
+    padding:0.5em;
+    font-size:38px;
+}
+b,input{
+    font-family:times new roman;
+    font-size:25px;
+
+}
+
+ul,b{
+    border:solid 2px lightskyblue;
+    background-color:lightskyblue;
+}
+body,fieldset{
+    position: center;
+    top: 4px;
+    bottom: 4px;
+    left: 96px;
+    right: 96px;
+}
+legend,fieldset{
+    position:center;
+    font-family:times new roman;
+}
+

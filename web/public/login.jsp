@@ -7,10 +7,11 @@
 
         <title>Log In</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-
+        <link rel="stylesheet" type="text/css" media="screen" href="<%= request.getContextPath() %>/public/style/login.css">
+        <!-- the path can also be "../public/style/login.css", but the reuqest can provide the absolute path-->
     </head>
 
-    <body>
+    <body >
 
         <form id="loginform" name="loginform" method="POST" action="j_security_check" accept-charset="UTF-8">
          <!-- Insert your form elements here -->
@@ -58,9 +59,6 @@
 
         %>
         
-        <script type="text/javascript">
-
-        </script>
 
     </body>
 

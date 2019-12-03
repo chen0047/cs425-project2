@@ -1,0 +1,52 @@
+body{
+background-image:url("image/night sky 5.jpg");
+background-opacity: 0;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+position: fixed;
+overflow: auto;
+top:30px;
+left:30px;
+right:30px;
+margin:auto;
+}
+
+h1{
+font:times new roman;
+font-style: italic;
+border-style:solid dashed;
+border-color:lightblue;
+background-color: lightblue;
+background-size: 20px 20px;
+
+}
+a {
+font:times new roman;
+border-style:solid dashed;
+border-radius:7px;
+border-color:lightpink;
+border-width:2;
+border-radius:5px;
+text-align:center;
+font-size:22px;
+display:inline-block;
+background-color:lightpink;
+width:300px;
+padding:6px;
+margin-bottom: 20px;
+
+
+}
+div{
+    background-color:lightblue;
+    background-size: 40px 40px;
+}
+a:hover{
+background-color:lightpink;
+}
+a:visited{
+color:whitesmoke;
+}
+
+
